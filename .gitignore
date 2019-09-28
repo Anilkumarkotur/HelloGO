@@ -1,12 +1,23 @@
-# Binaries for programs and plugins
-*.exe
+# Go Ignore
+.exe
 *.exe~
-*.dll
-*.so
-*.dylib
-
-# Test binary, build with `go test -c`
-*.test
-
-# Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# project Ignore
+dev/
+tmp/
+temp/
+out/
+vendor/
+/**/application.yml
+
+# IDE Ignore
+/.idea
+*.iml
+.vscode/
+
+# macOS Ignore
+.DS_Store
+
+# DB dumps
+db/dump.sql
